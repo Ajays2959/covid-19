@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+.main-header{
+    /* display: flex;
+    align-self: center;
+    align-content: center;*/
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 1em ;
+
+}
+/* h1{
+    display: flex;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+} */
+.main-body{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    padding: 1.5em;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    align-items: center;
+}
+.main-stat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+    margin-bottom: .1em;
+    margin-top: .5em;
+}
+.active-cases{
+    color: red;
+}
+.total-cases{
+    color: rgba(97, 110, 95, 0.26);
+}
+.critical-cases{
+    color: rgb(78, 62, 10);
+}
+.death-cases{
+    color: rgb(25, 68, 70);
+}
+.recovered-cases{
+    color: rgb(156, 14, 238);
+}
+.total-tests{
+    color: rgb(8, 1, 15);
+}
+.btn{
+    margin: 0%;
+    padding: 0%;
+    height: 50px;
+    width: 400px;
+    /* align-items: center; */
+    align-self: center;
+    font-size: 30px ;
+    font-weight:bold;
+    background-color: rgb(8, 1, 15);
+    color: white;
+    border-radius: 20px;
+}
